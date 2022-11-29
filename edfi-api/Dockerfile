@@ -5,10 +5,10 @@
 
 # Sourced from https://github.com/Ed-Fi-Alliance-OSS/Ed-Fi-ODS-Docker
 
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-alpine
+FROM mcr.microsoft.com/dotnet/core/aspnet:6.0-alpine
 LABEL maintainer="Ed-Fi Alliance, LLC and Contributors <techsupport@ed-fi.org>"
 
-ENV VERSION="5.3.1146"
+ENV VERSION="6.0.1192"
 
 WORKDIR /app
 COPY appsettings.template.json /app/appsettings.template.json
